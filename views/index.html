@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <title>BMI Calculator with Metric</title>
-    
-    
-    
+
+
+
     <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 
         <link rel="stylesheet" href="css/style.css">
 
-    
-    
-    
+
+
+
   </head>
 
   <body>
@@ -20,7 +20,7 @@
     <div class="container" ng-app="tabPanel">
   <div class="jumbotron" ng-controller="headerCtrl">
     <h1>{{header}}</h1>
-    <span>by:</span><a href="http://www.petrusrex.com/" target="_blank"> {{mySite}}</a>
+    <span>by:</span> {{mySite}}
     <br>
     <div class="tab-controller-wrap" ng-controller="tabCtrl" ng-click="tabChange($event)">
       <a href="#awesome1" class="tab-control" ng-class="{'active':tabSelected=='#awesome1'}">Imperial</a>
@@ -79,7 +79,7 @@
                 <p>Class II Obesity</p>
                 <p>Class III Obesity </p>
             </div>
-          
+
           </div>
         </div>
       </div>
@@ -91,8 +91,8 @@
 
         <script src="js/index.js"></script>
 
-    
-    
-    
+
+
+
   </body>
 </html>
